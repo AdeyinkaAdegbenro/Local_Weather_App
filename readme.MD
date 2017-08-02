@@ -1,0 +1,1 @@
+This app provides the local weather information of the user. It also provides search functionality for other location's weather information

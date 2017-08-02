@@ -1,0 +1,64 @@
+/*import google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Shirkhand|Abril+Fatface|Patua+One|Arapey|Kavoon|Allerta+Stencil|Roboto');
+
+body{
+ background:url("https://res.cloudinary.com/adeyinka/image/upload/c_scale,h_1200,w_1600/v1498806877/F1ReO4O_ogtvwd.jpg");
+color:grey; 
+text-align:center;
+background-size:cover;
+background-position :center;
+background-repeat:no-repeat;
+}
+
+h1{
+  font-family:Patua One;
+  
+}
+@media (max-width:500px){
+  h1{
+    font-size: 36px;
+  }
+}
+
+footer{
+  font-family:Allerta Stencil;
+}
+.lead{
+  font-family:Kavoon;
+}
+
+input[type='search']{
+  font-family:FontAwesome;
+}
+#time{
+  font-family:Shrikhand;
+  font-size:38px;
+  font-size:3.8vw;
+  color:#993333;
+}
+
+#date{
+   font-family:Abril Fatface;
+  font-size:38px;
+  font-size:3.8vw;
+  color:#993333;
+}
+
+
+
+input {
+  background: steelblue;
+}
+
+.well {
+  color: #000;
+text-decoration-style:solid;
+  background: background: rgba(76, 175, 80, 0.6);;
+  border-radius: 4px;
+  opacity: 0.6;
+
+  
+}
+#temp{
+  cursor:pointer;
+}
